@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.field input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.field input:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.checkboxField {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.submitButton {
+  padding: 10px 16px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  background: #999;
+  cursor: not-allowed;
+}

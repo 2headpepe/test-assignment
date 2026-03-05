@@ -1,0 +1,20 @@
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #fff0f0;
+  border: 1px solid #ffcccc;
+  border-radius: 6px;
+  color: #cc0000;
+}
+
+.dismissButton {
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid #cc0000;
+  border-radius: 4px;
+  color: #cc0000;
+  cursor: pointer;
+  font-size: 14px;
+}
